@@ -1,0 +1,270 @@
+  @font-face{
+ font-family:'SSSR';
+    src: url("SSSR");
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.m{
+    text-decoration:none;
+    width: 100px;
+    height: 100px;
+   font-size: 100px;
+    color: blueviolet;
+    margin-left: 50px;
+}
+p{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: darkblue
+}
+.l{
+    height: 3600px;
+}
+img{
+    margin-left:50px;
+    margin-top: 50px;
+}
+body{
+    background-color: gray;
+    margin: 0;
+    background-image: url("depositphotos_73632691-stock-illustration-watercolor-flowers-pattern.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans';
+}
+footer{
+    background-color:lightpink;
+    height: 250px;
+    box-sizing: border-box;
+    display: flex;
+
+}
+header{
+    background-color:lightpink;
+    height: 200px;
+  
+}
+.hea{
+    margin: 0px;
+   text-align: center;
+    font-size: 80px;
+    color:deeppink;
+    padding-top:50px;
+
+}
+main{
+    background-color: white;
+    width: 700px;
+    height:2700px;
+    margin:auto;
+    padding-top:80px;
+    margin-top: 0px;
+}
+.ik1{
+    border-radius: 25%; 
+    margin:auto;
+     width: 120px;
+    height: 120px;
+    color: white;
+   background: linear-gradient(to bottom left, purple, crimson, orangered, gold);
+    margin-top: 30px;
+    font-size: 110px;
+    text-align: center;
+}
+.ik2{
+
+    color: white;
+    margin:auto;
+    font-size: 40px;
+    margin-left:-70px;
+    
+}
+.in1{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.b1{
+    border:solid 3px black;
+    width: 300px;
+    height: 300px;
+    margin-left: 220px;
+    background-image: url("d44902f29d2.png");
+    background-size: cover;
+}
+.b2{
+    margin-top:200px ;
+    border:solid 3px black;
+    width: 300px;
+    height: 300px;
+    margin-left: 220px;
+    background-image: url("face-powder.png");
+    background-size: cover;
+}
+.b3{
+    margin-top:200px ;
+    border:solid 3px black;
+    width: 300px;
+    height: 300px;
+    margin-left:220px;
+    background-image: url("lips.png");
+    background-size: cover;
+}
+.b{
+    transition-duration: 1s;
+    border:solid 3px black;
+    width: 300px;
+    height: 300px;
+    margin-left:220px;
+    margin-bottom:200px ;
+}
+.b1:hover{
+    background-image: url("d44902f29d.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.b2:hover{
+    background-image: url("face-powder2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.b3:hover{
+    background-image: ur l("lips1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.b5{
+        background-image: url("%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F2.png");
+    background-size: cover;
+}
+.b5:hover{
+        background-image: url("%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.png");
+    background-size: cover;
+}
+.a1{
+    text-align: center;
+    font-size: 50px;
+    color: crimson;
+}
+.p1{
+    font-size: 30px;
+    text-align: center;
+    color:salmon;
+    margin-bottom:60px; 
+}
+.pa1{
+   padding-left: 40px; 
+    font-size: 20px;
+    color: darkviolet;
+    font-family: 'Open Sans';
+    height: 3000px;
+}
+.pa3{
+    height: 3400px;
+}
+h3{
+    font-size: 30px;
+    color: darkorchid;
+    margin-left:50px;
+}
+.z{
+    margin-left:220px;
+      width: 300px;
+    height: 300px;
+    transition-duration: 8s;
+    background-image: url("load2.png");
+    margin-top:140px;
+    background-size: contain;
+    background-repeat: no-repeat;
+      animation:load linear 2s infinite;
+}
+.i{
+    margin-left: 200px;
+}
+@keyframes load {
+  from { transform: rotate(0deg);}
+   to {transform: rotate(-360deg);}
+}
+@media (min-width: 1024px){ body
+   {
+    background-image: url("thumb_l_21603.jpg");
+    }
+    .z{
+        margin-left: 200px;
+    }
+    .pa1{
+        height: 3100px;
+    }
+    .i{
+        margin-left: 200px;
+    }
+    .pa3{
+        height: 3300px;
+    }
+}
+@media (min-width: 1366px){ body
+   {
+    background-image: url("6318.jpg");
+       font-size: 56px;
+       background-size: cover;
+    }
+    main{
+        width: 1100px;
+        height:3400px;
+    }
+    h1{
+        font-size: 100px;
+    }
+    .b{
+        margin-left: 300px;
+        width: 500px;
+        height: 500px;
+    }
+    .z{
+         margin-left: 400px; 
+    }
+     .in1{
+       margin-left: 250px;
+    }
+    .pa1{
+        height: 2700px;
+    }
+    img{
+        margin-left: 200px;
+    }
+    .l{
+        height: 2800px;
+    }
+    
+    .pa3{
+        height: 2500px;
+    }
+    .i{
+        margin-left: 380px;
+    }
+@media (max-width: 690px){ body
+   {
+    background:none;
+        background-color:lightpink;
+    }
+    header{
+        height: 300px;
+        padding-left: 190px;
+    }
+    footer{
+        margin-left: 300px;
+    }
+    .pa3{
+        height: 3400px;
+    }
+    
+    .ik1{
+       font-size: 85px; 
+        height:75px;
+        width: 75px;
+
+    }
+    header{
+        
+    }
+}
